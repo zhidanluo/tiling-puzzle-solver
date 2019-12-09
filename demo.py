@@ -16,7 +16,7 @@ from puzzleSolver import main
 import os
 
 # change this path to your own
-puzzleDataSetsDirectoryFullPath = "/Users/luozhidan/Downloads/University_of_Virginia/fall2019/Algorithm/project/puzzles/"
+puzzleDataSetsDirectoryFullPath = "puzzles/"
 
 
 rotate = True
