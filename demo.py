@@ -13,26 +13,37 @@ __author__ = 'Zhidan Luo'
 
 
 from puzzleSolver import main
+import os
 
 # change this path to your own
 puzzleDataSetsDirectoryFullPath = "/Users/luozhidan/Downloads/University_of_Virginia/fall2019/Algorithm/project/puzzles/"
 
+
 rotate = True
 flip = True
-demo = True
-show = True
+demo = False
+show = False
 
 # this test mode is to test the symmetry of tiles in given conditions
 test = False
 
+for fileName in sorted(os.listdir(puzzleDataSetsDirectoryFullPath)):
+	if fileName != '.DS_Store':
+		solutions = main(puzzleDataSetsDirectoryFullPath, fileName, 
+				 rotate = rotate, flip = flip, 
+				 demo = demo, show = show, 
+				 testMode = test)
+
+
+
 # fileName = 'IQ_creator.txt'
 # fileName = 'lucky13.txt'
 # fileName = 'partial_cross.txt'
-fileName = 'pentominoes3x20.txt'
+# fileName = 'pentominoes3x20.txt'
 # fileName = 'pentominoes4x15.txt'
 # fileName = 'pentominoes5x12.txt'
-#fileName = 'pentominoes6x10.txt'
-#fileName = 'pentominoes8x8_corner_missing.txt'
+# fileName = 'pentominoes6x10.txt'
+# fileName = 'pentominoes8x8_corner_missing.txt'
 # fileName = 'pentominoes8x8_four_missing_corners.txt'
 # fileName = 'pentominoes8x8_four_missing_diagonal.txt'
 # fileName = 'pentominoes8x8_four_missing_near_corners.txt'
@@ -52,8 +63,3 @@ solutions = main(puzzleDataSetsDirectoryFullPath, fileName,
 				rotate = rotate, flip = flip, 
 				demo = demo, show = show, 
 				testMode = test)
-
-
-
-
-
