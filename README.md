@@ -124,15 +124,3 @@ The point of rotating the board is to find the location of invalid cells more qu
 | test1.txt           | 48                  | 0.011719                      | 0.833777                        |
 | test2.txt           | 0                   | 0.003755                      | 0.003755                        |
 | thirteen holes.txt  | 2                   | 0.502909                      | 5.875532                        |
-
-
-
-
-
-
-
-
-
-
-
-
