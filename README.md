@@ -9,4 +9,4 @@ This project entails implementing a program that will solve arbitrary tiling puz
 
 ## 2. Puzzle Introduction
 An interesting set of puzzles consists of pieces corresponding to the twelve "pentominoes" (i.e., all of the 12 non-isomorphic combinations of five connected unit squares).
-![image](https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/tiles5*5.jpg)
+![image](https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/tiles5*5.jpg){:height="50%" width="50%"}
