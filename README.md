@@ -102,6 +102,13 @@ The point of rotating the board is to find the location of invalid cells more qu
 ![The Second Solution of 'pentominoes3x20.txt'](https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/sample_solutions/pentominoes3x20_2.png)
 
 ## 6. Solutions
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+
+
+
 |Puzzle Name|Number of Solutions|CPU time for 1 solution (sec)|CPU time for all solution (sec)|
 |---|:--:|---:|
 |IQ creator.txt |6 |0.006369 |11.415364|
