@@ -43,7 +43,7 @@ In our real world, the puzzle setting is namde IQ creator and it looks like this
 <div align=center>
   <img width="30%" height="30%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/IQ_creator.jpg"/></div>
 
-The following tiling puzzle is marketed by [www.bitsandpieces.com](www.bitsandpieces.com) under the name "Lucky Thirteen":
+The following tiling puzzle is marketed by [http://www.bitsandpieces.com](www.bitsandpieces.com) under the name "Lucky Thirteen":
 
 <div align=center>
   <img width="60%" height="60%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/lucky_13.jpg"/></div>
