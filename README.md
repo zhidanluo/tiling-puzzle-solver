@@ -97,9 +97,9 @@ The point of rotating the board is to find the location of invalid cells more qu
 
 
 ## 5. Sample Results
-![The First Solution of 'pentominoes3x20.txt'](https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/sample_solutions/pentominoes3x20_1.png)
+![The First Solution of pentominoes3x20.txt](https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/sample_solutions/pentominoes3x20_1.png)
 
-![The Second Solution of 'pentominoes3x20.txt'](https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/sample_solutions/pentominoes3x20_2.png)
+![The Second Solution of pentominoes3x20.txt](https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/sample_solutions/pentominoes3x20_2.png)
 
 
 
