@@ -21,7 +21,10 @@ puzzleDataSetsDirectoryFullPath = "puzzles/"
 
 rotate = True
 flip = True
-demo = False
+demo = True
+
+# ignored if demo == True.
+# if True, all solutions will be graphically shown
 show = False
 
 # this test mode is to test the symmetry of tiles in given conditions
@@ -59,7 +62,7 @@ for fileName in sorted(os.listdir(puzzleDataSetsDirectoryFullPath)):
 
 
 
-solutions = main(puzzleDataSetsDirectoryFullPath, fileName, 
-				rotate = rotate, flip = flip, 
-				demo = demo, show = show, 
-				testMode = test)
+# solutions = main(puzzleDataSetsDirectoryFullPath, fileName, 
+# 				rotate = rotate, flip = flip, 
+# 				demo = demo, show = show, 
+# 				testMode = test)
