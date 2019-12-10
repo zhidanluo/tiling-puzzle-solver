@@ -23,7 +23,7 @@ In our real world, the puzzles might look like these:
   <img width="40%" height="40%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/real1.jpg">
   <img width="40%" height="40%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/real2.jpg">
 </div>
-  
+
 The 12 pentominoes can also be fitted into each of the following nine 8x8 boards with 4 squares missing from each, as indicated:
 
 <div align=center>
@@ -31,3 +31,16 @@ The 12 pentominoes can also be fitted into each of the following nine 8x8 boards
   
   
 All known combinations of four holes in an 8x8 board can be tiled with the twelve pentominoes (it is in fact unknown whether there exists any four-holed 8x8 board that is not thus tilable).
+  
+Yet another 8x8 tiling puzzle is as follows:
+
+<div align=center>
+  <img width="50%" height="50%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/tiles8*8.jpg"/></div>
+
+In our real world, the puzzle setting is namde IQ creator and it looks like this:
+
+<div align=center>
+  <img width="50%" height="50%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/IQ_creator.jpg"/></div>
+
+
+
