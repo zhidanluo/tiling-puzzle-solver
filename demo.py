@@ -29,7 +29,7 @@ demo = True
 # if True, all solutions will be graphically shown
 show = False
 
-# this test mode is to test the symmetry of tiles in given conditions
+# this test mode is to test the symmetry of tiles in given conditions (rotate and flip)
 test = False
 
 for fileName in sorted(os.listdir(puzzleDataSetsDirectoryFullPath)):
