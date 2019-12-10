@@ -18,17 +18,17 @@ import time
 
 
 # Local imports
-import rotate
 import utils
 import helper
 import recorder
+from rotate import MaxtrixRotator
 
 
-"""Matrix ratator and flipper."""
-rot90 = rotate.MaxtrixRotator(90)
-rot180 = rotate.MaxtrixRotator(180)
-rot270 = rotate.MaxtrixRotator(270)
-flipper = rotate.MaxtrixRotator()
+"""Matrix ratator."""
+rot90 = MaxtrixRotator(90)
+rot180 = MaxtrixRotator(180)
+rot270 = MaxtrixRotator(270)
+flipper = MaxtrixRotator()
 
 
 """Checker function."""
