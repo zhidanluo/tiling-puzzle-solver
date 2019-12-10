@@ -46,7 +46,18 @@ In our real world, the puzzle setting is namde IQ creator and it looks like this
 The following tiling puzzle is marketed by [www.bitsandpieces.com](http://www.bitsandpieces.com) under the name "Lucky Thirteen":
 
 <div align=center>
-  <img width="60%" height="60%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/lucky_13.jpg"/></div>
+  <img width="75%" height="75%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/lucky_13.jpg"/></div>
+
+Interestingly, "Lucky Thirteen" is also a three-dimensional puzzle, with each solid piece having a height of one unit, and all thirteen pieces can be assembled into a three-dimensional 4x4x4 cube. In addition, six of the thirteen pieces can be assembled into a three-dimensional 3x3x3 cube.
+
+<div align="center">
+  <img width="40%" height="40%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/real_lucky_13_1.jpg">
+  <img width="40%" height="40%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/real_lucky_13_2.jpg">
+</div>
+
+
+
+
 
 
 
