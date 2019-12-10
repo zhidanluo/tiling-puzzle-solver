@@ -55,6 +55,23 @@ Interestingly, "Lucky Thirteen" is also a three-dimensional puzzle, with each so
   <img width="40%" height="40%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/real_lucky_13_2.jpg">
 </div>
 
+The 12 pentominoes can be fitted into the following irregular board with 13 holes in it.
+
+<div align=center>
+  <img width="75%" height="75%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/thirteen_holes.jpg"/>
+</div>
+
+Sometimes not all the tiles are needed for a solution, as is the case here when using the set of 12 pentominoes to cover a cross-shaped board (only 9 of the 12 pentominoes suffice to cover the board in this example):
+
+<div align=center>
+  <img width="75%" height="75%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/partial_cross
+.jpg"/>
+</div>
+
+
+
+
+
 
 
 
