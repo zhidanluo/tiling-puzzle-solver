@@ -73,7 +73,7 @@ In cases such as this, your program should print a warning that not all the tile
 ### 3.1. Loading Data
 - ASCII input files are read line by line into the program.
 - The string are converted into numpy matrix.
-- Use connected algorithm to nd connected components.
+- Use connected algorithm to find connected components.
 - The largest component is the board and the rest are tiles stord in a tile list.
 
 ### 3.2. Brief Description of Algorithm
@@ -90,22 +90,15 @@ In cases such as this, your program should print a warning that not all the tile
 
 ## 4. Optimization
 ### 4.1. Tile Rotation
-Each tile has a maximum of eight 
-ipped and rotated states, which are rst placed into the tiles list by the rotation
-algorithm. Next, we need to clear the tiles repeat state in the tile list. This can reduce the number of rotations and
-
-ips that needed to be searched and thus improve the speed of the algorithm. For the purposes of this optimization, we
-check the symmetry of each tile: if the tile is symmetric, we remove half of the duplicate states; if it is asymmetrical,
-we keep 
-ipping and rotating it.
+Each tile has a maximum of eight  ipped and rotated states, which are first placed into the tiles list by the rotation algorithm. Next, we need to clear the tiles repeat state in the tile list. This can reduce the number of rotations and flips that needed to be searched and thus improve the speed of the algorithm. For the purposes of this optimization, we check the symmetry of each tile: if the tile is symmetric, we remove half of the duplicate states; if it is asymmetrical, we keep  ipping and rotating it.
 
 ### 4.2. Board Rotation
-The point of rotating the board is to nd the location of invalid cells more quickly. For example, in our ll order we
-go from left to right, from top to bottom. Therefore, it is more advantageous for a wide board. Rotate the vertical
-plate 90 degrees when it encounters it, and the result will be even faster.
+The point of rotating the board is to find the location of invalid cells more quickly. For example, in our fill order we go from left to right, from top to bottom. Therefore, it is more advantageous for a wide board. Rotate the vertical plate 90 degrees when it encounters it, and the result will be even faster.
 
 
 ## 5. Sample Results
+<div align=center>
+  <img width="75%" height="75%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/sample_solutions/pentominoes3x20_1.png"/></div>
 
 
 
