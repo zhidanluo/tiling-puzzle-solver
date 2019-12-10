@@ -70,6 +70,7 @@ Sometimes not all the tiles are needed for a solution, as is the case here when 
 In cases such as this, your program should print a warning that not all the tiles are used, and proceed to solve the puzzle. This instance is a special case of the "pentominoe triplication" problem, where for each pentominoe, we can use 9 of the other pentominoes to create a three-times-normal-size image of the original pentominoe.
 
 ## 3. Modeling
+### 3.1. test
 - The main method of tiling is backtracking algorithm. The backtracking algorithm works by finding the first cell that should not be empty and putting the tiles into it from left to right, top to bottom.
 
 - Each time you place a tile, check its validity: make sure that the tile you place does not go out of bounds or intersect with another tile. Besides, only a vacancy with a multiple of n4 cells can be formed where n equals to the number of cells formed a tile if all the tiles are formed with the same number of cells, otherwise it equals to the minimum cell number that formed the tile from the tile list.
