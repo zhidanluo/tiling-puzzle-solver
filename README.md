@@ -23,8 +23,11 @@ In our real world, the puzzles might look like these:
   <img width="40%" height="40%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/real1.jpg">
   <img width="40%" height="40%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/real2.jpg">
 </div>
-
+  
 The 12 pentominoes can also be fitted into each of the following nine 8x8 boards with 4 squares missing from each, as indicated:
 
 <div align=center>
-  <img width="75%" height="75%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/missing.jpg"/></div>
+  <img width="60%" height="60%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/missing.jpg"/></div>
+  
+  
+All known combinations of four holes in an 8x8 board can be tiled with the twelve pentominoes (it is in fact unknown whether there exists any four-holed 8x8 board that is not thus tilable).
