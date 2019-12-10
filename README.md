@@ -70,7 +70,14 @@ Sometimes not all the tiles are needed for a solution, as is the case here when 
 In cases such as this, your program should print a warning that not all the tiles are used, and proceed to solve the puzzle. This instance is a special case of the "pentominoe triplication" problem, where for each pentominoe, we can use 9 of the other pentominoes to create a three-times-normal-size image of the original pentominoe.
 
 ## 3. Modeling
-### 3.1. test
+### 3.1. Loading Data
+- ASCII input files are read line by line into the program.
+- The string are converted into numpy matrix.
+- Use connected algorithm to nd connected components.
+- The largest component is the board and the rest are tiles stord in a tile list.
+
+### 3.2. Brief Description of Algorithm
+
 - The main method of tiling is backtracking algorithm. The backtracking algorithm works by finding the first cell that should not be empty and putting the tiles into it from left to right, top to bottom.
 
 - Each time you place a tile, check its validity: make sure that the tile you place does not go out of bounds or intersect with another tile. Besides, only a vacancy with a multiple of n4 cells can be formed where n equals to the number of cells formed a tile if all the tiles are formed with the same number of cells, otherwise it equals to the minimum cell number that formed the tile from the tile list.
@@ -80,6 +87,30 @@ In cases such as this, your program should print a warning that not all the tile
 - Whenever found a success tiling mechanism, record the mechanism and go back to its last condition and move on to the next trial until the last tile.
 
 - After finding all the successful results, we should move the rotated and reflected versions of the same solution to get the non-isomorphic solutions.
+
+## 4. Optimization
+### 4.1. Tile Rotation
+Each tile has a maximum of eight 
+ipped and rotated states, which are rst placed into the tiles list by the rotation
+algorithm. Next, we need to clear the tiles repeat state in the tile list. This can reduce the number of rotations and
+
+ips that needed to be searched and thus improve the speed of the algorithm. For the purposes of this optimization, we
+check the symmetry of each tile: if the tile is symmetric, we remove half of the duplicate states; if it is asymmetrical,
+we keep 
+ipping and rotating it.
+
+### 4.2. Board Rotation
+The point of rotating the board is to nd the location of invalid cells more quickly. For example, in our ll order we
+go from left to right, from top to bottom. Therefore, it is more advantageous for a wide board. Rotate the vertical
+plate 90 degrees when it encounters it, and the result will be even faster.
+
+
+## 5. Sample Results
+
+
+
+
+
 
 
 
