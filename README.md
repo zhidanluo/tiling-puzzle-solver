@@ -114,7 +114,7 @@ The point of rotating the board is to find the location of invalid cells more qu
 | pentominoes8x8 corner missing.txt | 5027 |2.352994 |17424.476251
 | pentominoes8x8 four missing corners.txt| 2179 |1.223040 |11390.637674
 | pentominoes8x8 four missing diagonal.txt | 74| 1.652738 |285.321908
-| pentominoes8x8 four missing near corners.txt | 188 7.532356 |4122.180834
+| pentominoes8x8 four missing near corners.txt | 188| 7.532356 |4122.180834
 | pentominoes8x8 four missing near middle.txt| 21| 0.899396| 772.478791
 | pentominoes8x8 four missing offset near corners.txt| 54 |6.875267| 1347.407052
 | pentominoes8x8 four missing offset near middle.txt | 126| 5.452162| 684.821022
