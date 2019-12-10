@@ -24,6 +24,7 @@ In our real world, the puzzles might look like these:
   <img width="40%" height="40%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/real2.jpg">
 </div>
 
+<br/>
 The 12 pentominoes can also be fitted into each of the following nine 8x8 boards with 4 squares missing from each, as indicated:
 
 <div align=center>
