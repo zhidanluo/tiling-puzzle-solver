@@ -35,12 +35,12 @@ All known combinations of four holes in an 8x8 board can be tiled with the twelv
 Yet another 8x8 tiling puzzle is as follows:
 
 <div align=center>
-  <img width="50%" height="50%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/tiles8*8.jpg"/></div>
+  <img width="70%" height="70%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/tiles8*8.jpg"/></div>
 
 In our real world, the puzzle setting is namde IQ creator and it looks like this:
 
 <div align=center>
-  <img width="50%" height="50%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/IQ_creator.jpg"/></div>
+  <img width="30%" height="30%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/IQ_creator.jpg"/></div>
 
 
 
