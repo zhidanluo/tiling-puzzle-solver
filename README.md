@@ -64,12 +64,10 @@ The 12 pentominoes can be fitted into the following irregular board with 13 hole
 Sometimes not all the tiles are needed for a solution, as is the case here when using the set of 12 pentominoes to cover a cross-shaped board (only 9 of the 12 pentominoes suffice to cover the board in this example):
 
 <div align=center>
-  <img width="75%" height="75%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/partial_cross
-.jpg"/>
+  <img width="75%" height="75%" src="https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/pictures/partial_cross.jpg"/>
 </div>
 
-
-
+In cases such as this, your program should print a warning that not all the tiles are used, and proceed to solve the puzzle. This instance is a special case of the "pentominoe triplication" problem, where for each pentominoe, we can use 9 of the other pentominoes to create a three-times-normal-size image of the original pentominoe.
 
 
 
