@@ -1,14 +1,14 @@
 import numpy as np
 import copy
 import matplotlib.pyplot as plt
-import rotate
+from rotate import MaxtrixRotator
 
 
 """Matrix ratator."""
-rot90 = rotate.MaxtrixRotator(90)
-rot180 = rotate.MaxtrixRotator(180)
-rot270 = rotate.MaxtrixRotator(270)
-flipper = rotate.MaxtrixRotator()
+rot90 = MaxtrixRotator(90)
+rot180 = MaxtrixRotator(180)
+rot270 = MaxtrixRotator(270)
+flipper = MaxtrixRotator()
 
 
 def _init_(boardBlank, tiles):
