@@ -102,28 +102,28 @@ The point of rotating the board is to find the location of invalid cells more qu
 ![The Second Solution of 'pentominoes3x20.txt'](https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/sample_solutions/pentominoes3x20_2.png)
 
 ## 6. Solutions
-| Puzzle Name            | Number of Solutions | CPU time for 1 solution (sec) | CPU time for all solution (sec) |
-| ----                   | ----                | ----                          | ----                            |
-| IQ creator.txt         | 6                   |0.006369 |11.415364|
-| lucky13.txt            |time out             | 2.866972 |time out
-| partial cross.txt      | 20                  |0.148260 |33.568313
-| pentominoes3x20.txt    | 2 |6.847107 |33.174490
-| pentominoes4x15.txt    | 368| 3.900980 |639.367350
-| pentominoes5x12.txt    | 1010 |3.843105| 2971.224107
-| pentominoes6x10.txt    | 2339| 0.980503 |11194.859237
-| pentominoes8x8 corner missing.txt | 5027 |2.352994 |17424.476251
-| pentominoes8x8 four missing corners.txt| 2179 |1.223040 |11390.637674
-| pentominoes8x8 four missing diagonal.txt | 74| 1.652738 |285.321908
-| pentominoes8x8 four missing near corners.txt | 188| 7.532356 |4122.180834
-| pentominoes8x8 four missing near middle.txt| 21| 0.899396| 772.478791
-| pentominoes8x8 four missing offset near corners.txt| 54 |6.875267| 1347.407052
-| pentominoes8x8 four missing offset near middle.txt | 126| 5.452162| 684.821022
-| pentominoes8x8 middle missing.txt| 65 |2.652183| 1639.660559
-| pentominoes8x8 side missing.txt| 1288 |0.970390| 5511.121397
-| pentominoes8x8 side offset missing.txt | 459 0.198444 |3505.358493
-| test1.txt | 48 |0.011719| 0.833777
-| test2.txt| 0| 0.003755| 0.003755
-| thirteen holes.txt| 2 |0.502909 |5.875532
+| Puzzle Name         | Number of Solutions | CPU time for 1 solution (sec) | CPU time for all solution (sec) |
+| ----                | ----                | ----                          | ----                            |
+| IQ creator.txt      | 6                   | 0.006369                      | 11.415364                       |
+| lucky13.txt         | time out            | 2.866972                      | time out                        |
+| partial cross.txt   | 20                  | 0.148260                      | 33.568313                       |
+| pentominoes3x20.txt | 2                   | 6.847107                      | 33.174490                       |
+| pentominoes4x15.txt | 368                 | 3.900980                      | 639.367350                      |
+| pentominoes5x12.txt | 1010                | 3.843105                      | 2971.224107                     |
+| pentominoes6x10.txt | 2339                | 0.980503                      | 11194.859237                    |
+| pentominoes8x8 corner missing.txt                   | 5027     | 2.352994 | 17424.476251                    |
+| pentominoes8x8 four missing corners.txt             | 2179     | 1.223040 | 11390.637674                    |
+| pentominoes8x8 four missing diagonal.txt            | 74       | 1.652738 | 285.321908                      |
+| pentominoes8x8 four missing near corners.txt        | 188      | 7.532356 | 4122.180834                     |
+| pentominoes8x8 four missing near middle.txt         | 21       | 0.899396 | 772.478791                      |
+| pentominoes8x8 four missing offset near corners.txt | 54       | 6.875267 | 1347.407052                     |
+| pentominoes8x8 four missing offset near middle.txt  | 126      | 5.452162 | 684.821022                      |
+| pentominoes8x8 middle missing.txt                   | 65       | 2.652183 | 1639.660559                     |
+| pentominoes8x8 side missing.txt                     | 1288     | 0.970390 | 5511.121397                     |
+| pentominoes8x8 side offset missing.txt              | 459      | 0.198444 | 3505.358493                     |
+| test1.txt           | 48                  | 0.011719                      | 0.833777                        |
+| test2.txt           | 0                   | 0.003755                      | 0.003755                        |
+| thirteen holes.txt  | 2                   | 0.502909                      | 5.875532                        |
 
 
 
