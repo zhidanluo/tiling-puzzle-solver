@@ -18,9 +18,11 @@ import os
 # change this path to your own
 puzzleDataSetsDirectoryFullPath = "puzzles/"
 
-
+# whether to allow tiles to be rotated or flipped
 rotate = True
 flip = True
+
+# if demo == True, only to find first two solutions and to be graphically shown
 demo = True
 
 # ignored if demo == True.
