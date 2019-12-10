@@ -102,7 +102,7 @@ The point of rotating the board is to find the location of invalid cells more qu
 ![The Second Solution of 'pentominoes3x20.txt'](https://github.com/Dan-Animenz/tilingPuzzleSolver/blob/master/sample_solutions/pentominoes3x20_2.png)
 
 ## 6. Solutions
-|  表头   | 表头  |
+|  Puzzle Name   | Number of Solutions  |
 |  ----  | ----  |
 | 单元格  | 单元格 |
 | 单元格  | 单元格 |
