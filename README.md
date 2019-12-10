@@ -1,1 +1,1 @@
-# <center> Tiling Puzzle Solver
+# <p align="center">Tiling Puzzle Solver</p>
