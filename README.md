@@ -105,7 +105,7 @@ The point of rotating the board is to find the location of invalid cells more qu
 | Puzzle Name         | Number of Solutions | CPU time for 1 solution (sec) | CPU time for all solution (sec) |
 | ----                | ----                | ----                          | ----                            |
 | IQ creator.txt      | 6                   | 0.006369                      | 11.415364                       |
-| lucky13.txt         | time out :simple_smile:            | 2.866972                      | time out                        |
+| lucky13.txt         | time out            | 2.866972                      | time out                        |
 | partial cross.txt   | 20                  | 0.148260                      | 33.568313                       |
 | pentominoes3x20.txt | 2                   | 6.847107                      | 33.174490                       |
 | pentominoes4x15.txt | 368                 | 3.900980                      | 639.367350                      |
